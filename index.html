@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Generador de contraseñas</title>
+</head>
+<body>
+    <h1>Generador de Contraseñas</h1>
+
+    <div class="contenedor">
+        <label for="frase">Escriba una frase</label>
+        <input type="text" id="frase" name="frase">
+        <button type="button" onclick="generarContraseña()">Generar Contraseña</button>
+
+        <label for="labelContra">Nueva contraseña</label>
+        <p id="labelContra"></p>
+        
+        <button type="button" onclick="copiarAlPortapapeles()">Copiar Contraseña</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
